@@ -1,0 +1,48 @@
+.New{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: blue;
+  border: 1px solid grey;
+  height: 50vh;
+  padding: 10px;
+  font-size: 24px;
+  align-items: center;
+  background-color: beige;
+}
+input{
+  width: 70%;
+  border-radius: 30px;
+  padding: 1px;
+}
+
+
+button{
+
+  margin: 0px 4px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+.MainB{
+  position: relative;
+ 
+}
+.SingleT{
+  list-style: none;
+  padding: 10px 20px;
+  display: flex;
+margin: 10px 10px;
+  align-items: center;
+  width: 400px;
+  background-color: crimson;
+  border-radius: 20px;
+  /* color: white; */
+  /* background-color: rgb(12, 235, 60); */
+}
+.TEXT{
+  flex: 1; 
+  color: white;
+  visibility: visible;
+}
