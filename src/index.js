@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import New from './New.js';
 
+import Check from './Check.js';
 
 
 
@@ -15,6 +16,7 @@ ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     <New />
+    {/* <Check></Check> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
