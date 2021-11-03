@@ -69,6 +69,7 @@ const New = () => {
 						<span className="TEXT" key={t.id}>{t.Tod}</span>
 						<button onClick={() => handleE(t.id)}>EDIT</button>
 						<button onClick={() => handleD(t.id)}>DELETE</button>
+						<button></button>
 					</li>
 				))}
 			</ul>
